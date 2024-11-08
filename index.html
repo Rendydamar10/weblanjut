@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roti SIGMA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body class="font-plus-jakarta">
+    <!-- NAVBAR -->
+    <header class="   flex justify-between  font-semibold box-border bg-[#F8F7F3] px-16 py-4">
+
+
+        <h1 class="font-extrabold w-28">ROTI SIGMA</h1>
+        <!-- <div class="absolute"> -->
+
+        <div
+            class="navLink absolute md:static md:bg-transparent bg-white md:min-h-fit min-h-[30vh] left-0  w-full flex md:justify-end items-center">
+
+
+            <ul class="flex flex-col  md:flex-row md:items-center gap-5  ">
+
+                <li class="mx-4 relative animasinavbar    ">
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="mx-4 relative animasinavbar    ">
+                    <a href="produk.html">
+                        Produk
+                    </a>
+                </li>
+
+                <li class="mx-4 relative animasinavbar  ">
+                    <a href="layanan.html">
+                        Layanan
+                    </a>
+                </li>
+
+
+                <li class="mx-4 relative animasinavbar  ">
+                    <a href="pemesanan.html">
+                        Pemesanan
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <ion-icon name="close" class="cursor-pointer md:hidden" onclick="onToggleMenu(this)"></ion-icon>
+        <!-- <i name="menu" onclick="onToggleMenu(this)" class="fa-solid fa-bars cursor-pointer "></i> -->
+
+
+    </header>
+    <!-- CONTENT 1 -->
+    <div
+        class="w-full h-max lg:h-[500px] flex flex-col justify-between lg:flex-row px-16 items-center bg-[#F8F7F3] mb-20 ">
+        <div class=" font-medium w-[80%]">
+
+            <h1 class="font-extrabold text-3xl ">Nikmati roti yang dibuat dengan
+                cinta <span class=" text-[#ff8040]">dengan bahan terbaik</span>
+            </h1>
+            <h1 class="font-medium mt-2">ROTI SIGMA menghadirkan kehangatan di setiap potongan, tidak hanya lezat tapi
+                juga membawa kebahagiaan untuk Anda dan keluarga dalam setiap momen spesial bersama orang tercinta </h1>
+            <button>
+                <a href="pemesanan.html"
+                    class="mt-3 inline-block rounded bg-[#c1533c] px-[20PX] py-2 text-xs font-medium  leading-normal text-white ">
+                    Pesan Sekarang
+                </a>
+            </button>
+        </div>
+        <div>
+
+
+            <div
+                class="bg-[#fefefd] rounded-md w-fit px-7 py-1 flex gap-5 absolute floating right-11 shadow-[2px_1px_40px_1px_rgba(204,204,204,0.9)]">
+                <i class="fa-solid fa-star text-3xl my-auto" style="color: #FFD43B;">
+                </i>
+                <div class="">
+
+                    <div class="text-[#595959] font-semibold font-plus-jakarta">
+                        Kualitas</div>
+
+                    <div class=" text-[#595959] font-medium">Bintang 5</div>
+                </div>
+            </div>
+            <img src="img/roti1.png" alt="gambar1kamar"
+                class="md:w-96 md:h-72 w-auto h-fit mr-32 animate-animasiImgKamar  ">
+        </div>
+
+
+    </div>
+
+
+
+
+    <!-- CONTENT 2 -->
+    <h1 class="text-center pb-14 font-black text-4xl">ABOUT US</h1>
+    <section class="mb-28  w-full ">
+        <div
+            class="mx-auto flex flex-col md:flex-row bg-[#fefefd] w-3/4 h-72  shadow-[2px_1px_40px_1px_rgba(204,204,204,0.9)] gap-16 box-border">
+            <img src="img/roti2.jpg" alt="img-about" class="">
+            <div class="pt-7 box-border px-1">
+                <p class="text-[#232323] font-bold text-xl">APA ITU ROTI SIGMA?</p>
+                <p class="text-[#676666]">toko roti yang berkomitmen menyajikan roti berkualitas tinggi dengan
+                    bahan-bahan pilihan. Kami
+                    menawarkan berbagai varian roti yang lezat dan sehat, diproduksi dengan standar kualitas tinggi
+                    untuk memastikan kepuasan pelanggan.</p>
+                <button class="border-2 border-black px-6 py-2 box-border font-bold mt-16 ">read
+                    more</button>
+            </div>
+        </div>
+
+    </section>
+    <!-- <hr class="border-[#c1533c]"> bg-[#d0d3af] -->
+
+
+    <!-- CONTEN VISI MISI -->
+    <section class="  mt-10 mb-24 py-16 animasitext   bg-[#d7b8b0] px-5  ">
+
+
+        <!-- <section class="flex flex-col md:flex-row w-full h-fit  justify-evenly">
+            <div class="h-72 w-64 rounded-md bg-[#fdfdfd]  px-4 shadow-[0px_2px_0px_3px_rgba(28,36,75,0.9)]">
+                <span
+                    class=" text-white font-bold text-xl left-[70px] relative bottom-2 bg-[#1c244b] rounded-md px-5 py-1">VISI
+                </span>
+                <p class="text-[#4b4b4b] text-center">Menjadi toko roti terkemuka yang dikenal karena kualitas produk,
+                    keberagaman varian, dan komitmen terhadap kesehatan, serta memberikan pengalaman kuliner yang tak
+                    terlupakan bagi setiap pelanggan dengan inovasi yang terus menerus dan layanan yang ramah</p>
+            </div>
+
+            <div
+                class="h-72 w-64 bg-[#fdfdfd]  rounded-md px-4 shadow-[0px_2px_0px_3px_rgba(28,36,75,0.9)] hover:shadow-none ease-out cursor-pointer duration-500">
+                <span
+                    class=" text-white font-bold text-xl left-[70px] relative bottom-2 bg-[#1c244b] rounded-md px-5 py-1">MISI
+                </span>
+                <p class="text-[#4b4b4b] text-center">Menyediakan berbagai macam roti dan produk bakery berkualitas
+                    tinggi,
+                    menggunakans
+                    bahan-bahan segar dan alami tanpa pengawet
+                    ,Mengutamakan inovasi dalam menciptakan varian produk yang menarik dan sesuai dengan selera
+                    pelanggan.
+                </p>
+            </div>
+        </section> -->
+        <div class="h-[70vh] flex flex-col md:flex-row gap-20  pl-10">
+
+            <div class="bg-orange-500 my-auto  w-[70%] px-16 pt-16 rounded-md outline-2 outline  ">
+                <img src="img/gambarvisi.png" alt="gambar-visi" class=" z-10 ">
+            </div>
+            <div class="text-[#232323] my-auto flex flex-col gap-10 items-start ">
+                <h1 class="text-center  font-black text-4xl ">VISI & MISI</h1>
+                <p class="font-semibold text-xl"><span class="font-black">VISI </span> kami menjadi toko roti terkemuka
+                    yang
+                    dikenal
+                    karena kualitas
+                    produk,
+                    keberagaman varian, dan komitmen terhadap kesehatan, serta memberikan pengalaman kuliner yang tak
+                    terlupakan bagi setiap pelanggan dengan inovasi yang terus menerus dan layanan yang ramah</p>
+                <p class="font-semibold text-xl"><span class="font-black">MISI </span> Menyediakan berbagai macam roti
+                    dan produk bakery berkualitas
+                    tinggi,
+                    menggunakans
+                    bahan-bahan segar dan alami tanpa pengawet
+                    ,Mengutamakan inovasi dalam menciptakan varian produk yang menarik dan sesuai dengan selera
+                    pelanggan</p>
+                <button>
+                    <a href="produk.html"
+                        class="mt-3 inline-block rounded bg-[#232323] px-[20PX] py-2 text-sm font-medium  leading-normal text-[#d7b8b0] ">
+                        our product
+                    </a>
+                </button>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- <hr class="border-[#c1533c]"> -->
+    <!-- CONTENT 3 -->
+    <h1 class="text-center pb-14 font-black text-4xl mt-5">Keunggulan Kami</h1>
+    <section class="h-screen w-full px-48 flex flex-col gap-7 ">
+        <div class="flex flex-col md:flex-row h-fit  gap-28 ">
+
+            <img src="img/bread1.png" alt="icon-roti" class="max-h-40">
+            <div class="pt-10">
+
+                <p class="text-[#232323] font-bold text-xl">Memiliki Banyak Varian</p>
+                <p>Toko kami mempunyai lebih dari 500 varian produk yang bermacam-macam, mulai dari roti mini yang lezat
+                    dan jajan pasar tradisional hingga spiku yang lembut dan brownies cokelat yang menggugah selera.
+                    .</p>
+            </div>
+        </div>
+        <!--  -->
+        <div class="flex flex-col-reverse md:flex-row-reverse h-fit  gap-28 ">
+
+            <img src="img/trust.png" alt="icon-roti" class="max-h-40">
+            <div class="pt-10">
+
+                <p class="text-[#232323] font-bold text-xl">Memiliki Banyak Varian</p>
+                <p>Toko kami mempunyai lebih dari 500 varian produk yang bermacam-macam, mulai dari roti mini yang lezat
+                    dan jajan pasar tradisional hingga spiku yang lembut dan brownies cokelat yang menggugah selera.
+                    .</p>
+            </div>
+
+        </div>
+        <!--  -->
+        <div class="flex flex-col md:flex-row h-fit  gap-28 ">
+
+            <img src="img/money.png" alt="icon-roti" class="max-h-40">
+            <div class="pt-10">
+
+                <p class="text-[#232323] font-bold text-xl">Memiliki Banyak Varian</p>
+                <p>Toko kami mempunyai lebih dari 500 varian produk yang bermacam-macam, mulai dari roti mini yang lezat
+                    dan jajan pasar tradisional hingga spiku yang lembut dan brownies cokelat yang menggugah selera.
+                    .</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <hr class="border-[#BEBEBE]">
+    <footer class="w-full h-60 flex justify-between text-[#232323] pt-10 px-16">
+        <div class="">
+            <p class="text-[#232323] font-black text-2xl">ROTI SIGMA</p>
+            <p class="font-semibold text-[#676666]">Jadilah Sigma Mulai Sekarang!</p>
+        </div>
+        <div class="font-semibold text-[#676666]">
+            <ul class="">
+                <li class="mb-2"> Home</li>
+                <li class="mb-2">Produk</li>
+                <li class="mb-2">Pemesanan</li>
+                <li class="mb-2">Layanan</li>
+            </ul>
+        </div>
+        <div class="">
+            <ul>
+                <li class="font-extrabold mb-2">Contact Us</li>
+                <li><i class="fa-solid fa-envelope mb-2" style="color: #676666;"></i>
+                    <span class="font-semibold text-[#676666]"> rotisigma@gmail.com</span>
+                </li>
+                <li> <i class="fa-solid fa-phone mb-2" style="color: #676666;"></i>
+                    <span class="font-semibold text-[#676666]"> 24772931</span>
+                </li>
+                <li><i class="fa-solid fa-copyright mb-2" style="color: #676666;"></i>
+                    <span class="font-semibold text-[#676666]"> Copyright 2024</span>
+                </li>
+
+
+            </ul>
+        </div>
+    </footer>
+    <script src="scriptscroll.js"></script>
+    <!-- <script>
+        const navLinks = document.querySelector('.navLink');
+        function onToggleMenu(e) {
+            e.name = e.name === 'menu' ? 'close' : 'menu'
+            navLinks.classList.toggle('hidden');
+
+        }
+        window.addEventListener('resize', () => {
+            if (window.innerWidth >= 768) {
+                navLinks.classList.remove('hidden');
+            }
+        });
+
+
+    </script> -->
+
+</body>
+
+</html>

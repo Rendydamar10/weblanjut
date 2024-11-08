@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body class="font-plus-jakarta">
+
+    <!-- NAVBAR -->
+    <header class="   flex justify-between  font-semibold box-border bg-[#F8F7F3] px-16 py-4">
+
+
+        <h1 class="font-extrabold w-28">ROTI SIGMA</h1>
+        <!-- <div class="absolute"> -->
+
+        <div
+            class="navLink absolute md:static md:bg-transparent bg-white md:min-h-fit min-h-[30vh] left-0  w-full flex md:justify-end items-center">
+
+
+            <ul class="flex flex-col  md:flex-row md:items-center gap-5  ">
+
+                <li class="mx-4 relative animasinavbar    ">
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="mx-4 relative animasinavbar    ">
+                    <a href="produk.html">
+                        Produk
+                    </a>
+                </li>
+
+                <li class="mx-4 relative animasinavbar  ">
+                    <a href="layanan.html">
+                        Layanan
+                    </a>
+                </li>
+                <li class="mx-4 relative animasinavbar  ">
+                    <a href="pemesanan.html">
+                        Pemesanan
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <ion-icon name="close" class="cursor-pointer md:hidden" onclick="onToggleMenu(this)"></ion-icon>
+        <!-- <i name="menu" onclick="onToggleMenu(this)" class="fa-solid fa-bars cursor-pointer "></i> -->
+
+
+    </header>
+
+    <div class="h-[10vh] flex justify-center gap-2 my-14">
+
+        <img src="img/icon/donut-1.png" alt="icon-cupcakes" class="h-[5vh]">
+        <h1 class="text-center font-bold text-3xl "> Pilih Jenis Donut Yang Kamu Suka </h1>
+        <img src="img/icon/donut-1.png" alt="icon-cupcakes" class="h-[5vh]">
+
+    </div>
+    <section class="flex flex-row gap-20 w-full justify-center flex-wrap ">
+        <!-- CARD-------------- -->
+        <div class="h-[38vh] w-[15%] flex flex-col shadow-[2px_1px_40px_1px_rgba(204,204,204,1)] rounded-t-lg">
+
+            <img src="img/donut/donut-img1.jpg" alt="cupcake-img"
+                class="h-[25vh] object-cover rounded-t-lg  aspect-[4/3]">
+            <div class="bg-[#F8F7F3] p-4 pb-5">
+
+                <h1 class="pb-2  font-bold">Donut 1</h1>
+
+
+
+                <div class="flex justify-between">
+                    <p
+                        class="rounded-full text-xs bg-emerald-300 bg-opacity-20 text-emerald-600 px-3 pt-1  box-border font-normal">
+                        Donut</p>
+                    <p class="font-semibold">Rp 15.000</p>
+                </div>
+            </div>
+        </div>
+        <!-- CARD-------------- -->
+        <div class="h-[38vh] w-[15%] flex flex-col shadow-[2px_1px_40px_1px_rgba(204,204,204,1)] rounded-t-lg">
+
+            <img src="img/donut/donut2.jpg" alt="Donut-img" class="h-[25vh] object-cover rounded-t-lg aspect-[4/3] ">
+            <div class="bg-[#F8F7F3] p-4 pb-5">
+
+                <h1 class="pb-2 pl-1 font-bold">Donut 1</h1>
+                <div class="flex justify-between">
+                    <p
+                        class="rounded-full text-xs bg-emerald-300 bg-opacity-20 text-emerald-600 px-3 pt-1  box-border font-normal">
+                        Donut</p>
+                    <p class="font-semibold">Rp 15.000</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD-------------- -->
+        <div class="h-[38vh] w-[15%] flex flex-col shadow-[2px_1px_40px_1px_rgba(204,204,204,1)] rounded-t-lg">
+
+            <img src="img/donut/donut3-1.png" alt="Donut-img" class="h-[25vh] object-cover rounded-t-lg aspect-[4/3] ">
+            <div class="bg-[#F8F7F3] p-4 pb-5">
+
+                <h1 class="pb-2 pl-1 font-bold">Donut 1</h1>
+                <div class="flex justify-between">
+                    <p
+                        class="rounded-full text-xs bg-emerald-300 bg-opacity-20 text-emerald-600 px-3 pt-1  box-border font-normal">
+                        Donut</p>
+                    <p class="font-semibold">Rp 15.000</p>
+                </div>
+            </div>
+        </div>
+        <!-- CARD-------------- -->
+        <div class="h-[38vh] w-[15%] flex flex-col shadow-[2px_1px_40px_1px_rgba(204,204,204,1)] rounded-t-lg">
+
+            <img src="img/donut/donut4.png" alt="Donut-img" class="h-[25vh] object-cover rounded-t-lg aspect-[4/3] ">
+            <div class="bg-[#F8F7F3] p-4 pb-5">
+
+                <h1 class="pb-2 pl-1 font-bold">Donut 1</h1>
+                <div class="flex justify-between">
+                    <p
+                        class="rounded-full text-xs bg-emerald-300 bg-opacity-20 text-emerald-600 px-3 pt-1  box-border font-normal">
+                        Donut</p>
+                    <p class="font-semibold">Rp 15.000</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD-------------- -->
+        <div class="h-[38vh] w-[15%] flex flex-col shadow-[2px_1px_40px_1px_rgba(204,204,204,1)] rounded-t-lg">
+
+            <img src="img/donut/donut5-1.jpg" alt="Donut-img" class="h-[25vh] object-cover rounded-t-lg aspect-[4/3] ">
+            <div class="bg-[#F8F7F3] p-4 pb-5">
+
+                <h1 class="pb-2 pl-1 font-bold">Donut 1</h1>
+                <div class="flex justify-between">
+                    <p
+                        class="rounded-full text-xs bg-emerald-300 bg-opacity-20 text-emerald-600 px-3 pt-1  box-border font-normal">
+                        Donut</p>
+                    <p class="font-semibold">Rp 15.000</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- FOOTER -->
+    <hr class="border-[#BEBEBE]">
+    <footer class="w-full h-60 flex justify-between text-[#232323] pt-10 px-16">
+        <div class="">
+            <p class="text-[#232323] font-black text-2xl">ROTI SIGMA</p>
+            <p class="font-semibold text-[#676666]">Jadilah Sigma Mulai Sekarang!</p>
+        </div>
+        <div class="font-semibold text-[#676666]">
+            <ul class="">
+                <li class="mb-2"> Home</li>
+                <li class="mb-2">Produk</li>
+                <li class="mb-2">Pemesanan</li>
+                <li class="mb-2">Layanan</li>
+            </ul>
+        </div>
+        <div class="">
+            <ul>
+                <li class="font-extrabold mb-2">Contact Us</li>
+                <li><i class="fa-solid fa-envelope mb-2" style="color: #676666;"></i>
+                    <span class="font-semibold text-[#676666]"> rotisigma@gmail.com</span>
+                </li>
+                <li> <i class="fa-solid fa-phone mb-2" style="color: #676666;"></i>
+                    <span class="font-semibold text-[#676666]"> 24772931</span>
+                </li>
+                <li><i class="fa-solid fa-copyright mb-2" style="color: #676666;"></i>
+                    <span class="font-semibold text-[#676666]"> Copyright 2024</span>
+                </li>
+
+
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
